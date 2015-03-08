@@ -29,7 +29,7 @@
     </div>
     <div id="main">
     	<div id="myjs" class="title"><h2>名医介绍</h2><span>010-12345678</span></div>
-    	<div class="con">
+    	<div class="con" style="height:213px">
 			<div class="con-myjs-left"><div class="con-myjs-left-img"><img src="img/titleleft.png"></div></div>
 			<div class="con-myjs-rigth">
 				<div class="con-myjs-rigth-top"><img src="img/dangdaifu.png"></div>
@@ -37,18 +37,33 @@
 			</div>
     	</div>
     	<div id="bqfl" class="title"><h2>病情分类</h2><a class="mfzx">免费咨询</a></div>
-    	<div class="con">
+    	<div class="con" style="height:633px">
 			<div class="con-bqfl-top">
 				<span class="con-bqfl-top-list">常见皮肤病：</span>
 				<a href="#">青春痘</a>
 				<a href="#">皮炎</a>
 			</div>
 			<div class="con-bqfl-bottom">
-				<div class="con-bqfl-bottom-list">1</div>
+				<div class="con-bqfl-bottom-list">
+					<div class="con-bqfl-bottom-list-img"><img src="img/titleleft.png"></div>
+					<div class="con-bqfl-bottom-list-con"><div class="bqfl-list-con-title">丘疹型痘痘</div><div class="bqfl-list-con-nr">fewfasdfgasdf常见dfadfgd32432皮肤病</div></div>
+				</div>
+				<div class="con-bqfl-bottom-list">
+					<div class="con-bqfl-bottom-list-img"><img src="img/titleleft.png"></div>
+					<div class="con-bqfl-bottom-list-con"><div class="bqfl-list-con-title">丘疹型痘痘</div><div class="bqfl-list-con-nr">fewfasdfgasdf常见dfadfgd32432皮肤病</div></div>
+				</div>
+				<div class="con-bqfl-bottom-list">
+					<div class="con-bqfl-bottom-list-img"><img src="img/titleleft.png"></div>
+					<div class="con-bqfl-bottom-list-con"><div class="bqfl-list-con-title">丘疹型痘痘</div><div class="bqfl-list-con-nr">fewfasdfgasdf常见dfadfgd32432皮肤病</div></div>
+				</div>
+				<div class="con-bqfl-bottom-list">
+					<div class="con-bqfl-bottom-list-img"><img src="img/titleleft.png"></div>
+					<div class="con-bqfl-bottom-list-con"><div class="bqfl-list-con-title">丘疹型痘痘</div><div class="bqfl-list-con-nr">fewfasdfgasdf常见dfadfgd32432皮肤病</div></div>
+				</div>
 			</div>
     	</div>
     	<div id="cgal" class="title"><h2>成功案例</h2><span>010-12345678</span></div>
-    	<div class="con">sadf</div>
+    	<div class="con"></div>
     	<div id="yfzs" class="title"><h2>预防知识</h2><a class="mfzx">免费咨询</a></div>
     	<div class="con">sadf</div>
     </div>

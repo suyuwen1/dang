@@ -14,7 +14,7 @@ function bars_xf(){//导航栏悬浮
 		var v=$("#"+name).offset().top;
 		$(window).scrollTop((v-72))
 	});
-	$(window).scroll(function(event) {
+	$(window,document).scroll(function(event) {
 		var s=$(this).scrollTop();
 		if (s>b) {
 			$("#bars").addClass('bars-xf');
@@ -24,19 +24,19 @@ function bars_xf(){//导航栏悬浮
 			$("#banner").removeAttr('style');
 			// 
 		}
-		console.log('s='+s+', '+'b='+b+', m='+m+', l='+l);
+		console.log('s='+s+', '+'b='+b+', m='+m+', l='+l+', c='+c+', y='+y);
 		if (s<(m-73)||s>=f) {
 			$(".bars-list a").removeClass('bars-list-a1');
 		}
-		if ((m-73)<=s && s<l) {
+		if ((m-73)<=s && s<(l-73)) {
 			$(".bars-list a").removeClass('bars-list-a1');
 			$(".bars-list a[name='myjs']").addClass('bars-list-a1');
 		}
-		if ((l-73)<=s && s<c) {
+		if ((l-73)<=s && s<(c-73)) {
 			$(".bars-list a").removeClass('bars-list-a1');
 			$(".bars-list a[name='bqfl']").addClass('bars-list-a1');
 		}
-		if ((c-73)<=s && s<y) {
+		if ((c-73)<=s && s<(y-73)) {
 			$(".bars-list a").removeClass('bars-list-a1');
 			$(".bars-list a[name='cgal']").addClass('bars-list-a1');
 		}
