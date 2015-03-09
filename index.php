@@ -63,7 +63,7 @@
 			</div>
     	</div>
     	<div id="cgal" class="title"><h2>成功案例</h2><span>010-12345678</span></div>
-    	<div class="con"></div>
+    	<div class="con cgal"><div class="cgal-w"><div class="cgal-con"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"><img src="img/titleleft.png"></div></div></div>
     	<div id="yfzs" class="title"><h2>预防知识</h2><a class="mfzx">免费咨询</a></div>
     	<div class="con">sadf</div>
     </div>

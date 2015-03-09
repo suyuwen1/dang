@@ -112,6 +112,7 @@ body{
 	margin: 0px auto;
 	padding: 15px;
 	border: solid 1px #B87070;
+	position: relative;
 }
 .con:after{
 	content: "";
@@ -198,6 +199,19 @@ body{
 .bqfl-list-con-nr{
 	padding-bottom: 15px;
 }
+.cgal-w{
+	width: 960px;
+	position: relative;
+	overflow: hidden;
+	height: 180px;
+}
+.cgal-con{
+	position: absolute;
+	width: 2000px;
+	height: 180px;
+	/*z-index: -100;*/
+}
+
 #footer{
 	background-image: url('../img/footer.jpg');
 	background-repeat: repeat-x;
