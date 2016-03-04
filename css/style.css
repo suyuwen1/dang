@@ -258,6 +258,68 @@ body{
 	margin-top: 20px;
 }
 
+#leftgn{
+    position: fixed;
+    right: 10px;
+    border: solid 1px #6f2322;
+    padding: 10px;
+    top: 25%;
+    overflow: hidden;
+}
+
+#leftgn_top{
+    width: 150px;
+    border: solid 1px #DFDFDF;
+}
+
+#leftgn_top img{
+    vertical-align: middle;
+    width: 100%;
+    border: 0;
+}
+
+#leftgn_cen{
+    width: 150px;
+}
+
+.leftgn_cen_list{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.ys1{
+    background-color: #CC6600;
+}
+
+.ys2{
+    background-color: #6f2322;
+}
+
+.ys3{
+    background-color: #B87070;
+}
+
+.leftgn_rx{
+    font-size: 16px;
+    text-align: center;
+}
+
+.leftgn_dh{
+    font-size: 18px;
+    color: #CC0000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.leftgn_cen_list .fa-user-md{
+    font-size: 14px;
+    margin-right: 5px;
+}
+
 @media (max-width:375px){
     .slideBox .hd ul{
         width: 80px;

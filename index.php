@@ -7,6 +7,7 @@
 <title>Examples</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
+<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
 <link href="css/style.css" rel="stylesheet">
 <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script type="text/javascript" src="js/SuperSlide/jquery.SuperSlide.2.1.1.js"></script>
@@ -123,7 +124,15 @@
     	<div id="yfzs" class="title"><h2>预防知识</h2><a target="_blank" href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" class="mfzx">免费咨询</a></div>
     	<div class="con">sadf</div>
     </div>
-    <div id="leftgn"></div>
+    <div id="leftgn">
+        <div id="leftgn_top"><img src="img/titleleft.png"></div>
+        <div id="leftgn_cen">
+            <div class="leftgn_cen_list ys1"><i class="fa fa-user-md fa-2x"></i>在线咨询</div>
+            <div class="leftgn_cen_list ys2">在线咨询</div>
+            <div class="leftgn_rx">咨询热线：</div>
+            <div class="leftgn_dh">1234567787</div>
+        </div>
+    </div>
     <div id="footer"></div>
     <script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fdd4c9118206ce15d0735e003bf5c9daa' type='text/javascript'%3E%3C/script%3E")) </script>
 </body>
