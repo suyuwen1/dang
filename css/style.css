@@ -20,6 +20,7 @@ body{
  	color: #393939;
  	overflow-x: hidden;
  	overflow-y: auto;
+     -webkit-overflow-scrolling:touch;
 }
 #header{
 	width: 100%;
@@ -56,7 +57,7 @@ body{
 	height: 53px;
 	width: 100px;
 	text-align: center;
-
+    margin-right: 20px;
 }
 .bars-list a{
 	color: #fff;
@@ -75,13 +76,28 @@ body{
 	background-repeat: no-repeat;
 }
 #banner{
-	height: 400px;
+	/*height: 400px;*/
 	width: 100%;
+    position: relative;
+    overflow: hidden;
 }
-#banner img{
-	width: 100%;
-	height: 100%;
+#banner ul{
+    list-style:none;
 }
+.slideBox .hd{ height:15px; overflow:hidden; position:absolute; bottom:15px; z-index:1; text-align: center;width: 100%;}
+.slideBox .hd ul{ overflow:hidden; zoom:1; margin: 0 auto; width: 100px;}
+.slideBox .hd ul li{ float:left; margin-right:5px; margin-left: 5px;  width:15px; height:15px; line-height:14px; text-align:center; background:#fff; cursor:pointer;border-radius: 8px;text-indent: -9999px;}
+.slideBox .hd ul li.on{ background:#6f2322; color:#fff; }
+.slideBox .bd{ position:relative; height:100%; z-index:0;   }
+.slideBox .bd li{ zoom:1; vertical-align:middle;text-align: center; }
+.slideBox .bd img{height:100%; display:block; border: 0;margin: 0 auto;width: 100%;}
+.slideBox .prev,
+.slideBox .next{ position:absolute; left:3%; top:50%; margin-top:-25px; display:block; width:32px; height:40px; background:url(../img/slider-arrow.png) -110px 5px no-repeat; filter:alpha(opacity=50);opacity:0.5;   }
+.slideBox .next{ left:auto; right:3%; background-position:8px 5px; }
+.slideBox .prev:hover,
+.slideBox .next:hover{ filter:alpha(opacity=100);opacity:1;  }
+.slideBox .prevStop{ display:none;  }
+.slideBox .nextStop{ display:none;  }
 .title{
 	background-image: url('../img/title.png');
 	background-repeat: no-repeat;
@@ -96,16 +112,24 @@ body{
 	font-size: 24px;
 	float: left;
 }
-.title span{
+.title .title_tel{
 	font-size: 24px;
 	float: right;
 	background-image: url('../img/tel.png');
 	background-repeat: no-repeat;
 	background-position: 0% 50%;
 	padding-left: 50px;
+    color: #fff;
+    text-decoration: none;
 }
 .title .mfzx{
 	float: right;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    border-bottom: solid 2px #fff;
+    line-height: 30px;
+    margin-top: 10px;
 }
 .con{
 	max-width: 1000px;
@@ -127,8 +151,8 @@ body{
 	float: left;
 }
 .con-myjs-left-img{
-	display: table-cell;
-	vertical-align: middle;
+	/*display: table-cell;
+	vertical-align: middle;*/
 	width: 100%;
 }
 .con-myjs-left img{
@@ -182,6 +206,7 @@ body{
 	vertical-align: middle;
 	height: 150px;
 	overflow: hidden;
+    text-align: center;
 }
 .con-bqfl-bottom-list-con{
 	width: 100%;
@@ -212,10 +237,73 @@ body{
 	/*z-index: -100;*/
 }
 
+.picMarquee-left{ width:100%;  overflow:hidden; position:relative;}
+.picMarquee-left .hd{ overflow:hidden;  height:30px; background:#f4f4f4; padding:0 10px;  }
+.picMarquee-left .hd .next{ background-position:0 -50px;  }
+.picMarquee-left .hd .prevStop{ background-position:-60px 0; }
+.picMarquee-left .hd .nextStop{ background-position:-60px -50px; }
+.picMarquee-left .bd{ }
+.picMarquee-left .bd ul{ overflow:hidden; zoom:1; }
+.picMarquee-left .bd ul li{ margin:0 8px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+.picMarquee-left .bd ul li .pic{ text-align:center; }
+.picMarquee-left .bd ul li .pic img{ }
+.picMarquee-left .bd ul li .pic a:hover img{ }
+.picMarquee-left .bd ul li .title{ line-height:24px;   }
+
 #footer{
 	background-image: url('../img/footer.jpg');
 	background-repeat: repeat-x;
 	width: 100%;
 	height: 300px;
 	margin-top: 20px;
+}
+
+@media (max-width:375px){
+    .slideBox .hd ul{
+        width: 80px;
+    }
+    .slideBox .hd ul li{
+        width: 10px;
+        height: 10px;
+    }
+    .slideBox .hd{
+        bottom: 3px;
+    }
+    .title .title_tel{
+        font-size: 16px;
+        padding-left: 40px;
+    }
+    .title{
+        padding: 0 20px;
+
+    }
+    .con-myjs-rigth{
+        padding: 0px;
+    }
+    .con-myjs-left{
+        width: 100%;
+    }
+    .con-myjs-left-img{
+        text-align: center;
+    }
+    .con-myjs-rigth-top{
+        padding: 0;
+        text-align: center;
+    }
+    .con-bqfl-bottom{
+        margin-right: 0;
+    }
+    
+}
+
+@media (min-width:321px) and (max-width:375px){
+    .bars-list{
+        margin: 0 12px;
+    }
+}
+
+@media (max-width:320px){
+    .bars-list{
+        margin: 0 3px;
+    }
 }
