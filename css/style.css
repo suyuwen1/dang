@@ -114,22 +114,30 @@ body{
 }
 .title .title_tel{
 	font-size: 24px;
-	float: right;
-	background-image: url('../img/tel.png');
-	background-repeat: no-repeat;
-	background-position: 0% 50%;
-	padding-left: 50px;
+	/*float: right;*/
+	/*background-image: url('../img/tel.png');*/
+	/*background-repeat: no-repeat;*/
+	/*background-position: 0% 50%;*/
+	/*padding-left: 50px;*/
     color: #fff;
     text-decoration: none;
 }
 .title .mfzx{
-	float: right;
+	/*float: right;*/
     color: #fff;
     font-size: 24px;
     text-decoration: none;
     border-bottom: solid 2px #fff;
     line-height: 30px;
-    margin-top: 10px;
+}
+.title .fa{
+    /*float: right;*/
+    margin-right: 10px;
+    font-size: 24px;
+}
+.title_r_img{
+    float: right;
+    /*margin-top: 2px;*/
 }
 .con{
 	max-width: 1000px;
@@ -308,7 +316,7 @@ body{
 }
 
 .ys3{
-    background-color: #B87070;
+    background-color: #f4a460;
 }
 
 .leftgn_rx{
@@ -335,6 +343,39 @@ body{
 #phone_gn{
     display: none;
 }
+#leftgn_close{
+    position: absolute;
+    padding: 0 5px;
+    right: -4px;
+    top: -6px;
+    color: #640000;
+}
+#leftgn_close:hover{
+    cursor: pointer;
+    color: #6f2322;
+}
+#leftgn_h{
+    position: fixed;
+    right: 10px;
+    border: solid 1px #640000;
+    padding: 5px;
+    top: 25%;
+    overflow: hidden;
+    background-color: #CC6600;
+    color: #fff;
+    font-size: 24px;
+    z-index: 1000;
+    width: 36px;
+    display: none;
+}
+
+#leftgn_h .fa{
+    font-size: 30px;
+}
+
+#leftgn_h:hover{
+    cursor: pointer;
+}
 
 @media (max-width:414px){
     .slideBox .hd ul{
@@ -348,12 +389,21 @@ body{
         bottom: 3px;
     }
     .title .title_tel{
-        font-size: 16px;
-        padding-left: 40px;
+        font-size: 18px;
+        /*padding-left: 40px;*/
+    }
+    .title .mfzx{
+        font-size: 18px;
+    }
+    .title .fa{
+        font-size: 18px;
     }
     .title{
         padding: 0 20px;
 
+    }
+    .title h2{
+        font-size: 18px;
     }
     .con-myjs-rigth{
         padding: 0px;
@@ -372,6 +422,10 @@ body{
         margin-right: 0;
     }
     #leftgn{
+        display: none;
+        position: relative;
+    }
+    #leftgn_h{
         display: none;
     }
     #phone_gn{
@@ -401,7 +455,9 @@ body{
         padding: 15px 20px;
         float: left;
     }
-    
+    #footer{
+        margin-bottom: 54px;
+    }
 }
 
 @media (min-width:376px) and (max-width:414px){

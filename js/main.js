@@ -9,6 +9,17 @@ function bars_xf(){//导航栏悬浮
 	var c=$("#cgal").offset().top;
 	var y=$("#yfzs").offset().top;
 	var f=$("#footer").offset().top;
+    var cls=false;
+    $("#leftgn_close").click(function(event) {
+        $("#leftgn").hide();
+        $("#leftgn_h").show();
+        cls=true;
+    });
+    $("#leftgn_h").click(function(event){
+        $("#leftgn").show();
+        $("#leftgn_h").hide();
+        cls=false;
+    });
 	$(".bars-list-a").click(function(event) {
 		var name=$(this).attr('name');
 		var v=$("#"+name).offset().top;
@@ -30,11 +41,16 @@ function bars_xf(){//导航栏悬浮
             if (s>b) {
                 $("#bars").addClass('bars-xf');
                 $("#banner").css('margin-top', '53px');
-                $("#leftgn").show();
+                if(cls){
+                    $("#leftgn_h").show();                
+                }else{
+                    $("#leftgn").show();
+                }
             } else{
                 $("#bars").removeClass('bars-xf');
                 $("#banner").removeAttr('style');
                 $("#leftgn").hide();
+                $("#leftgn_h").hide();                
             }
         }
 		
