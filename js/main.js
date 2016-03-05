@@ -30,9 +30,11 @@ function bars_xf(){//导航栏悬浮
             if (s>b) {
                 $("#bars").addClass('bars-xf');
                 $("#banner").css('margin-top', '53px');
+                $("#leftgn").show();
             } else{
                 $("#bars").removeClass('bars-xf');
                 $("#banner").removeAttr('style');
+                $("#leftgn").hide();
             }
         }
 		

@@ -55,7 +55,7 @@
 				<div class="con-myjs-rigth-con">fasghfklasdfhjsaldsafghkskkadslfhakfjhasdgk'jasghkjashfkjasdf3245j1k325h43jkhdfjahfksdaf是朝秦暮楚蝇aksd革查村果sdjk工虽土木工程</div>
 			</div>
     	</div>
-    	<div id="bqfl" class="title"><h2>病情分类</h2><a target="_blank" href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" class="mfzx">免费咨询</a></div>
+    	<div id="bqfl" class="title"><h2>病情分类</h2><a target="_blank" href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" class="mfzx">在线咨询</a></div>
     	<div class="con">
 			<div class="con-bqfl-top">
 				<span class="con-bqfl-top-list">常见皮肤病：</span>
@@ -121,17 +121,21 @@
 		jQuery(".picMarquee-left").slide({mainCell:".bd ul",autoPlay:true,effect:"leftMarquee",vis:5,interTime:50});
 		</script>
         </div>
-    	<div id="yfzs" class="title"><h2>预防知识</h2><a target="_blank" href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" class="mfzx">免费咨询</a></div>
+    	<div id="yfzs" class="title"><h2>预防知识</h2><a target="_blank" href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" class="mfzx">在线咨询</a></div>
     	<div class="con">sadf</div>
     </div>
     <div id="leftgn">
         <div id="leftgn_top"><img src="img/titleleft.png"></div>
         <div id="leftgn_cen">
-            <div class="leftgn_cen_list ys1"><i class="fa fa-user-md fa-2x"></i>在线咨询</div>
-            <div class="leftgn_cen_list ys2">在线咨询</div>
-            <div class="leftgn_rx">咨询热线：</div>
+            <div class="leftgn_cen_list ys1"><a href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" target="_blank"><i class="fa fa-user-md"></i>在线咨询</a></div>
+            <div class="leftgn_cen_list ys2"><a href="" target="_blank"><i class="fa fa-qq"></i>QQ咨询</a></div>
+            <div class="leftgn_rx"><i class="fa fa-phone"></i>咨询热线：</div>
             <div class="leftgn_dh">1234567787</div>
         </div>
+    </div>
+    <div id="phone_gn">
+        <div class="leftgn_cen_list ys1"><a href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" target="_blank"><i class="fa fa-user-md"></i>在线咨询</a></div>
+        <div class="leftgn_cen_list ys2"><a href="tel:12345678" target="_blank"><i class="fa fa-phone"></i>电话咨询</a></div>
     </div>
     <div id="footer"></div>
     <script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fdd4c9118206ce15d0735e003bf5c9daa' type='text/javascript'%3E%3C/script%3E")) </script>

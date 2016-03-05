@@ -259,12 +259,15 @@ body{
 }
 
 #leftgn{
+    display: none;
     position: fixed;
     right: 10px;
     border: solid 1px #6f2322;
     padding: 10px;
     top: 25%;
     overflow: hidden;
+    background-color: #fff;
+    z-index: 1000;
 }
 
 #leftgn_top{
@@ -283,13 +286,18 @@ body{
 }
 
 .leftgn_cen_list{
+    margin: 10px 0;
+}
+.leftgn_cen_list a{
+    display: block;
     text-align: center;
     font-size: 18px;
     color: #fff;
-    margin: 10px 0;
     padding: 5px 10px;
     position: relative;
+    text-decoration: none;
 }
+
 
 .ys1{
     background-color: #CC6600;
@@ -315,12 +323,20 @@ body{
     font-weight: bold;
 }
 
-.leftgn_cen_list .fa-user-md{
-    font-size: 14px;
+.leftgn_cen_list .fa{
+    /*font-size: 20px;*/
     margin-right: 5px;
 }
 
-@media (max-width:375px){
+.leftgn_rx .fa{
+    /*font-size: 20px;*/
+    margin-right: 5px;
+}
+#phone_gn{
+    display: none;
+}
+
+@media (max-width:414px){
     .slideBox .hd ul{
         width: 80px;
     }
@@ -355,7 +371,43 @@ body{
     .con-bqfl-bottom{
         margin-right: 0;
     }
+    #leftgn{
+        display: none;
+    }
+    #phone_gn{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        z-index: 1000;
+        background-color: #fff;
+        /*border-top: solid 1px #B87070;*/
+    }
+    #phone_gn::after{
+        content: '';
+        clear: both;
+        display: block;
+        visibility: hidden;
+    }
+    .leftgn_cen_list{
+        width: 50%;
+        display: inline-block;
+        margin: 0;
+        float: left;
+    }
+    .leftgn_cen_list a{
+        width: 100%;
+        margin: 0;
+        padding: 15px 20px;
+        float: left;
+    }
     
+}
+
+@media (min-width:376px) and (max-width:414px){
+    .bars-list{
+        margin: 0 19px;
+    }
 }
 
 @media (min-width:321px) and (max-width:375px){
