@@ -64,6 +64,7 @@ body{
 	line-height: 53px;
 	text-decoration: none;
 	display: block;
+    font-size: 16px;
 }
 .bars-list a:hover{
 	background-color: #640000;
