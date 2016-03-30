@@ -139,7 +139,11 @@
         <div class="leftgn_cen_list ys1"><a href="http://p.qiao.baidu.com//im/index?siteid=8240151&ucid=19386485" target="_blank"><i class="fa fa-user-md"></i>在线咨询</a></div>
         <div class="leftgn_cen_list ys2"><a href="tel:12345678" target="_blank"><i class="fa fa-phone"></i>电话咨询</a></div>
     </div>
-    <div id="footer"></div>
+    <div id="footer">
+        <div id="beian">
+            <div style="width:300px;margin:0 auto; padding:20px 0;color:#e6b1b0;text-align:center;">京ICP备16011309号-1</br>京公网安备11010802020355号</div>
+        </div>
+    </div>
     <script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fdd4c9118206ce15d0735e003bf5c9daa' type='text/javascript'%3E%3C/script%3E")) </script>
 </body>
 </html>
